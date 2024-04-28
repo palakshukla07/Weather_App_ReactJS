@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* HEADER  */}
-        <h1>Weather App</h1>
+        <h1> ..Daily Weather.. </h1>
 
         {/* Search Box - Input + Button  */}
         <div className="city">
