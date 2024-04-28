@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: url(./assets/clouds.png);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rebeccapurple;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.city input {
+  display: flex;
+  height: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  box-shadow: 7px 4px 15px 0px rgba(0,0,0,0.34);
+  color: #1c1c1c;
+  border-radius: 40px;
+  padding: 8px;
+  outline: none;
+}
+.city button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  color: #1c1c1c;
+  background-color: #fff;
+  height: 47px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 7px 4px 15px 0px rgba(0,0,0,0.34);
+  border: none;
+  padding: 8px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
